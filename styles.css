@@ -8,13 +8,14 @@ a {
 
 .nav {
   text-align: right;
-ul {
-  display: inline-block;
-  }
 }
 
+li {
+  display: inline-block;
+  }
+
 .google-search {
-  margin-top: 145px;
+  margin-top: 225px;
   img {
     width: 269px;
     height: 95px;
@@ -29,7 +30,7 @@ ul {
 }
 
 .lucky {
-  margin: 5px;
+  margin: 7px;
   margin-top: 15px;
 }
 
@@ -47,19 +48,20 @@ footer {
   bottom: 0;
   position: absolute;
   display: inline;
+}
 
 ul {
   padding: 0 0 0 20px;
 }
 
 .footer-left {
-  text-align: left;
-  margin-left: 5px;
+  float: left;
+  margin-left: 10px;
   display: inline-block;
 }
 
 .footer-right {
-  text-align: right;
-  margin-right: 5px;
+  float: right;
+  margin-right: 10px;
 }
-}
+
